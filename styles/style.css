@@ -280,43 +280,63 @@ body{
 
 
 /* classes to change icon */
-.purple>.main-page>.under-div{background-color: purple;}  .purple>.main-page>.my-text>h2>span{color: purple;}
+.purple>.main-page>.under-div{background-color: purple;}
+.purple>.main-page>.my-text>h2>span{color: purple;}
+.purple>.main-page>.my-nav-mini>ul>li.activ{color: purple;}
 .purple>.main-page>.my-text>button{background-color: purple;} .purple>.main-page>.my-nav>ul>li:hover a{background-color: purple;}
 .purple>.main-page>.my-nav>ul>li>a.activ{background-color: purple;}  .purple>.main-page>.my-nav>ul>li>h2{background-color: purple;}
 
-.red>.main-page>.under-div{background-color: red;}  .red>.main-page>.my-text>h2>span{color: red;}
+.red>.main-page>.under-div{background-color: red;}
+  .red>.main-page>.my-text>h2>span{color: red;}
+  .red>.main-page>.my-nav-mini>ul>li.activ{color: red;}
 .red>.main-page>.my-text>button{background-color: red;} .red>.main-page>.my-nav>ul>li:hover a{background-color: red;}
 .red>.main-page>.my-nav>ul>li>a.activ{background-color: red;}  .red>.main-page>.my-nav>ul>li>h2{background-color: red;}
 
-.blueviolet>.main-page>.under-div{background-color: blueviolet;}  .blueviolet>.main-page>.my-text>h2>span{color: blueviolet;}
+.blueviolet>.main-page>.under-div{background-color: blueviolet;} 
+ .blueviolet>.main-page>.my-text>h2>span{color: blueviolet;}
+ .blueviolet>.main-page>.my-nav-mini>ul>li.activ{color: blueviolet;}
 .blueviolet>.main-page>.my-text>button{background-color: blueviolet;} .blueviolet>.main-page>.my-nav>ul>li:hover a{background-color: blueviolet;}
 .blueviolet>.main-page>.my-nav>ul>li>a.activ{background-color: blueviolet;}  .blueviolet>.main-page>.my-nav>ul>li>h2{background-color: blueviolet;}
 
-.blue>.main-page>.under-div{background-color: blue;}  .blue>.main-page>.my-text>h2>span{color: blue;}
+.blue>.main-page>.under-div{background-color: blue;}
+  .blue>.main-page>.my-text>h2>span{color: blue;}
+  .blue>.main-page>.my-nav-mini>ul>li.activ{color: blue;}
 .blue>.main-page>.my-text>button{background-color: blue;} .blue>.main-page>.my-nav>ul>li:hover a{background-color: blue;}
 .blue>.main-page>.my-nav>ul>li>a.activ{background-color: blue;}  .blue>.main-page>.my-nav>ul>li>h2{background-color: blue;}
 
-.goldenrod>.main-page>.under-div{background-color: goldenrod;}  .goldenrod>.main-page>.my-text>h2>span{color: goldenrod;}
+.goldenrod>.main-page>.under-div{background-color: goldenrod;} 
+ .goldenrod>.main-page>.my-text>h2>span{color: goldenrod;}
+ .goldenrod>.main-page>.my-nav-mini>ul>li.activ{color: goldenrod;}
 .goldenrod>.main-page>.my-text>button{background-color: goldenrod;} .goldenrod>.main-page>.my-nav>ul>li:hover a{background-color:goldenrod ;}
 .goldenrod>.main-page>.my-nav>ul>li>a.activ{background-color: goldenrod;}  .goldenrod>.main-page>.my-nav>ul>li>h2{background-color: goldenrod;}
 
-.magenta>.main-page>.under-div{background-color: magenta;}  .magenta>.main-page>.my-text>h2>span{color: magenta;}
+.magenta>.main-page>.under-div{background-color: magenta;}
+  .magenta>.main-page>.my-text>h2>span{color: magenta;}
+  .magenta>.main-page>.my-nav-mini>ul>li.activ{color: magenta;}
 .magenta>.main-page>.my-text>button{background-color: magenta;} .magenta>.main-page>.my-nav>ul>li:hover a{background-color: magenta;}
 .magenta>.main-page>.my-nav>ul>li>a.activ{background-color: magenta;}  .magenta>.main-page>.my-nav>ul>li>h2{background-color: magenta;}
 
-.yellowgreen>.main-page>.under-div{background-color: yellowgreen;}  .yellowgreen>.main-page>.my-text>h2>span{color: yellowgreen;}
+.yellowgreen>.main-page>.under-div{background-color: yellowgreen;}
+  .yellowgreen>.main-page>.my-text>h2>span{color: yellowgreen;}
+  .yellowgreen>.main-page>.my-nav-mini>ul>li.activ{color: yellowgreen;}
 .yellowgreen>.main-page>.my-text>button{background-color: yellowgreen;} .yellowgreen>.main-page>.my-nav>ul>li:hover a{background-color: yellowgreen;}
 .yellowgreen>.main-page>.my-nav>ul>li>a.activ{background-color: yellowgreen;}  .yellowgreen>.main-page>.my-nav>ul>li>h2{background-color: yellowgreen;}
 
-.orange>.main-page>.under-div{background-color: orange;}  .orange>.main-page>.my-text>h2>span{color: orange;}
+.orange>.main-page>.under-div{background-color: orange;}
+  .orange>.main-page>.my-text>h2>span{color: orange;}
+  .orange>.main-page>.my-nav-mini>ul>li.activ{color: orange;}
 .orange>.main-page>.my-text>button{background-color: orange;} .orange>.main-page>.my-nav>ul>li:hover a{background-color: orange;}
 .orange>.main-page>.my-nav>ul>li>a.activ{background-color: orange;}  .orange>.main-page>.my-nav>ul>li>h2{background-color: orange;}
 
-.green>.main-page>.under-div{background-color: green;}  .green>.main-page>.my-text>h2>span{color: green;}
+.green>.main-page>.under-div{background-color: green;}
+  .green>.main-page>.my-text>h2>span{color: green;}
+  .green>.main-page>.my-nav-mini>ul>li.activ{color: green;}
 .green>.main-page>.my-text>button{background-color: green;} .green>.main-page>.my-nav>ul>li:hover a{background-color: green;}
 .green>.main-page>.my-nav>ul>li>a.activ{background-color: green;}  .green>.main-page>.my-nav>ul>li>h2{background-color: green;}
 
-.yellow>.main-page>.under-div{background-color: yellow;}  .yellow>.main-page>.my-text>h2>span{color: yellow;}
+.yellow>.main-page>.under-div{background-color: yellow;}
+  .yellow>.main-page>.my-text>h2>span{color: yellow;}
+  .yellow>.main-page>.my-nav-mini>ul>li.activ{color: yellow;}
 .yellow>.main-page>.my-text>button{background-color: yellow;} .yellow>.main-page>.my-nav>ul>li:hover a{background-color: yellow;}
 .yellow>.main-page>.my-nav>ul>li>a.activ{background-color: yellow;}  .yellow>.main-page>.my-nav>ul>li>h2{background-color: yellow;}
 

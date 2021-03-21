@@ -632,6 +632,7 @@ body{
 
 
 .purple>.title>h1>span{color: purple;}
+.purple>.title>.my-nav-mini>ul>li.activ{color:purple ;}
 .purple>.about-me>.container>button{background-color: purple;}
 .purple>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: purple;}
 .purple>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: purple;}
@@ -645,6 +646,7 @@ body{
 
 
 .red>.title>h1>span{color: red;}
+.red>.title>.my-nav-mini>ul>li.activ{color: red;}
 .red>.about-me>.container>button{background-color: red;}
 .red>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: red;}
 .red>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: red;}
@@ -658,6 +660,7 @@ body{
 
 
 .blueviolet>.title>h1>span{color: blueviolet;}
+.blueviolet>.title>.my-nav-mini>ul>li.activ{color: blueviolet;}
 .blueviolet>.about-me>.container>button{background-color: blueviolet;}
 .blueviolet>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: blueviolet;}
 .blueviolet>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: blueviolet;}
@@ -671,6 +674,7 @@ body{
 
 
 .blue>.title>h1>span{color: blue;}
+.blue>.title>.my-nav-mini>ul>li.activ{color: blue;}
 .blue>.about-me>.container>button{background-color: blue;}
 .blue>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: blue;}
 .blue>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: blue;}
@@ -684,6 +688,7 @@ body{
 
 
 .goldenrod>.title>h1>span{color: goldenrod;}
+.goldenrod>.title>.my-nav-mini>ul>li.activ{color: goldenrod;}
 .goldenrod>.about-me>.container>button{background-color: goldenrod;}
 .goldenrod>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: goldenrod;}
 .goldenrod>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: goldenrod;}
@@ -697,6 +702,7 @@ body{
 
 
 .magenta>.title>h1>span{color: magenta;}
+.magenta>.title>.my-nav-mini>ul>li.activ{color: magenta;}
 .magenta>.about-me>.container>button{background-color: magenta;}
 .magenta>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: magenta;}
 .magenta>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: magenta;}
@@ -710,6 +716,7 @@ body{
 
 
 .yellowgreen>.title>h1>span{color: yellowgreen;}
+.yellowgreen>.title>.my-nav-mini>ul>li.activ{color: yellowgreen;}
 .yellowgreen>.about-me>.container>button{background-color: yellowgreen;}
 .yellowgreen>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: yellowgreen;}
 .yellowgreen>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: yellowgreen;}
@@ -723,6 +730,7 @@ body{
 
 
 .orange>.title>h1>span{color: orange;}
+.orange>.title>.my-nav-mini>ul>li.activ{color: orange;}
 .orange>.about-me>.container>button{background-color: orange;}
 .orange>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: orange;}
 .orange>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: orange;}
@@ -736,6 +744,7 @@ body{
 
 
 .green>.title>h1>span{color: green;}
+.green>.title>.my-nav-mini>ul>li.activ{color: green;}
 .green>.about-me>.container>button{background-color: green;}
 .green>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: green;}
 .green>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: green;}
@@ -749,6 +758,7 @@ body{
 
 
 .yellow>.title>h1>span{color: yellow;}
+.yellow>.title>.my-nav-mini>ul>li.activ{color: yellow;}
 .yellow>.about-me>.container>button{background-color: yellow;}
 .yellow>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: yellow;}
 .yellow>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: yellow;}

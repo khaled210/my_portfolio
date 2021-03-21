@@ -253,6 +253,7 @@ body{
 
 
 .purple>.desc-blog>.title>h1>span{color: purple;}
+.purple>.desc-blog>.my-nav-mini>ul>li.activ{color: purple;}
 .purple>.desc-blog>.container>.blog-info>ul>li>i{color: purple;}
 .purple>.desc-blog>.my-nav>ul>li:hover a{background-color: purple;}
 .purple>.desc-blog>.my-nav>ul>li>a.activ{background-color: purple;}
@@ -260,6 +261,7 @@ body{
 
 
 .red>.desc-blog>.title>h1>span{color:red ;}
+.red>.desc-blog>.my-nav-mini>ul>li.activ{color:red ;}
 .red>.desc-blog>.container>.blog-info>ul>li>i{color: red;}
 .red>.desc-blog>.my-nav>ul>li:hover a{background-color: red;}
 .red>.desc-blog>.my-nav>ul>li>a.activ{background-color: red;}
@@ -267,6 +269,7 @@ body{
 
 
 .blueviolet>.desc-blog>.title>h1>span{color: blueviolet;}
+.blueviolet>.desc-blog>.my-nav-mini>ul>li.activ{color: blueviolet;}
 .blueviolet>.desc-blog>.container>.blog-info>ul>li>i{color: blueviolet;}
 .blueviolet>.desc-blog>.my-nav>ul>li:hover a{background-color: blueviolet;}
 .blueviolet>.desc-blog>.my-nav>ul>li>a.activ{background-color: blueviolet;}
@@ -274,6 +277,7 @@ body{
 
 
 .blue>.desc-blog>.title>h1>span{color: blue;}
+.blue>.desc-blog>.my-nav-mini>ul>li.activ{color: blue;}
 .blue>.desc-blog>.container>.blog-info>ul>li>i{color: blue;}
 .blue>.desc-blog>.my-nav>ul>li:hover a{background-color: blue;}
 .blue>.desc-blog>.my-nav>ul>li>a.activ{background-color: blue;}
@@ -281,6 +285,7 @@ body{
 
 
 .goldenrod>.desc-blog>.title>h1>span{color: goldenrod;}
+.goldenrod>.desc-blog>.my-nav-mini>ul>li.activ{color: goldenrod;}
 .goldenrod>.desc-blog>.container>.blog-info>ul>li>i{color: goldenrod;}
 .goldenrod>.desc-blog>.my-nav>ul>li:hover a{background-color: goldenrod;}
 .goldenrod>.desc-blog>.my-nav>ul>li>a.activ{background-color: goldenrod;}
@@ -288,6 +293,7 @@ body{
 
 
 .magenta>.desc-blog>.title>h1>span{color: magenta;}
+.magenta>.desc-blog>.my-nav-mini>ul>li.activ{color: magenta;}
 .magenta>.desc-blog>.container>.blog-info>ul>li>i{color: magenta;}
 .magenta>.desc-blog>.my-nav>ul>li:hover a{background-color: magenta;}
 .magenta>.desc-blog>.my-nav>ul>li>a.activ{background-color: magenta;}
@@ -295,6 +301,7 @@ body{
 
 
 .yellowgreen>.desc-blog>.title>h1>span{color: yellowgreen;}
+.yellowgreen>.desc-blog>.my-nav-mini>ul>li.activ{color: yellowgreen;}
 .yellowgreen>.desc-blog>.container>.blog-info>ul>li>i{color: yellowgreen;}
 .yellowgreen>.desc-blog>.my-nav>ul>li:hover a{background-color: yellowgreen;}
 .yellowgreen>.desc-blog>.my-nav>ul>li>a.activ{background-color: yellowgreen;}
@@ -302,13 +309,15 @@ body{
 
 
 .orange>.desc-blog>.title>h1>span{color: orange;}
+.orange>.desc-blog>.my-nav-mini>ul>li.activ{color: orange;}
 .orange>.desc-blog>.container>.blog-info>ul>li>i{color: orange;}
 .orange>.desc-blog>.my-nav>ul>li:hover a{background-color: orange;}
 .orange>.desc-blog>.my-nav>ul>li>a.activ{background-color: orange;}
 .orange>.desc-blog>.my-nav>ul>li>h2{background-color: orange;}
 
 
-.green>.desc-blog>.title>h1>span{color: green;}
+.orange>.desc-blog>.title>h1>span{color: green;}
+.orange>.desc-blog>.my-nav-mini>ul>li.activ{color: green;}
 .green>.desc-blog>.container>.blog-info>ul>li>i{color: green;}
 .green>.desc-blog>.my-nav>ul>li:hover a{background-color: green;}
 .green>.desc-blog>.my-nav>ul>li>a.activ{background-color: green;}
@@ -316,6 +325,7 @@ body{
 
 
 .yellow>.desc-blog>.title>h1>span{color: yellow;}
+.yellow>.desc-blog>.my-nav-mini>ul>li.activ{color: yellow;}
 .yellow>.desc-blog>.container>.blog-info>ul>li>i{color: yellow;}
 .yellow>.desc-blog>.my-nav>ul>li:hover a{background-color: yellow;}
 .yellow>.desc-blog>.my-nav>ul>li>a.activ{background-color: yellow;}

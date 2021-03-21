@@ -357,6 +357,7 @@ body{
 
 
 .purple>.contact>.title>h1>span{color: purple;}
+.purple>.contact>.my-nav-mini>ul>li.activ{color: purple;}
 .purple>.contact>.container>.info>.mail>div>i{color: purple;}
 .purple>.contact>.container>.info>ul>li:hover{background-color: purple;}
 .purple>.contact>.container>.inputs>button{background-color: purple;}
@@ -368,6 +369,7 @@ body{
 
 
 .red>.contact>.title>h1>span{color: red;}
+.red>.contact>.my-nav-mini>ul>li.activ{color: red;}
 .red>.contact>.container>.info>.mail>div>i{color: red;}
 .red>.contact>.container>.info>ul>li:hover{background-color: red;}
 .red>.contact>.container>.inputs>button{background-color: red;}
@@ -379,6 +381,7 @@ body{
 
 
 .blueviolet>.contact>.title>h1>span{color: blueviolet;}
+.blueviolet>.contact>.my-nav-mini>ul>li.activ{color: blueviolet;}
 .blueviolet>.contact>.container>.info>.mail>div>i{color: blueviolet;}
 .blueviolet>.contact>.container>.info>ul>li:hover{background-color: blueviolet;}
 .blueviolet>.contact>.container>.inputs>button{background-color: blueviolet;}
@@ -389,6 +392,7 @@ body{
 .blueviolet>.contact>.container>.inputs>textarea.border-attr{border-color: blueviolet;}
 
 .blue>.contact>.title>h1>span{color: blue;}
+.blue>.contact>.my-nav-mini>ul>li.activ{color: blue;}
 .blue>.contact>.container>.info>.mail>div>i{color: blue;}
 .blue>.contact>.container>.info>ul>li:hover{background-color: blue;}
 .blue>.contact>.container>.inputs>button{background-color: blue;}
@@ -399,6 +403,7 @@ body{
 .blue>.contact>.container>.inputs>textarea.border-attr{border-color: blue;}
 
 .goldenrod>.contact>.title>h1>span{color: goldenrod;}
+.goldenrod>.my-nav-mini>ul>li.activ{color: goldenrod;}
 .goldenrod>.contact>.container>.info>.mail>div>i{color: goldenrod;}
 .goldenrod>.contact>.container>.info>ul>li:hover{background-color: goldenrod;}
 .goldenrod>.contact>.container>.inputs>button{background-color: goldenrod;}
@@ -410,6 +415,7 @@ body{
 
 
 .magenta>.contact>.title>h1>span{color: magenta;}
+.magenta>.contact>.my-nav-mini>ul>li.activ{color: magenta;}
 .magenta>.contact>.container>.info>.mail>div>i{color: magenta;}
 .magenta>.contact>.container>.info>ul>li:hover{background-color: magenta;}
 .magenta>.contact>.container>.inputs>button{background-color: magenta;}
@@ -421,6 +427,7 @@ body{
 
 
 .yellowgreen>.contact>.title>h1>span{color: yellowgreen;}
+.yellowgreen>.contact>.my-nav-mini>ul>li.activ{color: yellowgreen;}
 .yellowgreen>.contact>.container>.info>.mail>div>i{color: yellowgreen;}
 .yellowgreen>.contact>.container>.info>ul>li:hover{background-color: yellowgreen;}
 .yellowgreen>.contact>.container>.inputs>button{background-color: yellowgreen;}
@@ -432,6 +439,7 @@ body{
 
 
 .orange>.contact>.title>h1>span{color: orange;}
+.orange>.contact>..my-nav-mini>ul>li.activ{color: orange;}
 .orange>.contact>.container>.info>.mail>div>i{color: orange;}
 .orange>.contact>.container>.info>ul>li:hover{background-color: orange;}
 .orange>.contact>.container>.inputs>button{background-color: orange;}
@@ -443,6 +451,7 @@ body{
 
 
 .green>.contact>.title>h1>span{color: green;}
+.green>.contact>.my-nav-mini>ul>li.activ{color: green;}
 .green>.contact>.container>.info>.mail>div>i{color: green;}
 .green>.contact>.container>.info>ul>li:hover{background-color: green;}
 .green>.contact>.container>.inputs>button{background-color: green;}
@@ -454,6 +463,7 @@ body{
 
 
 .yellow>.contact>.title>h1>span{color: yellow;}
+.yellow>.contact>.my-nav-mini>ul>li.activ{color: yellow;}
 .yellow>.contact>.container>.info>.mail>div>i{color: yellow;}
 .yellow>.contact>.container>.info>ul>li:hover{background-color: yellow;}
 .yellow>.contact>.container>.inputs>button{background-color: yellow;}

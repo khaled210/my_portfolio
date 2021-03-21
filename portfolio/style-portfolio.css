@@ -353,6 +353,7 @@ span.close-cursor {
 
 
 .purple>.port>.title>h1>span{color: purple;}
+.purple>.port>.my-nav-mini>ul>li.activ{color: purple;}
 .purple>.port>.container>.img-content>.img-bord::before{background-color: purple;}
 .purple>.over-port>.over-port-container>.my-slids>h2{color: purple;}
 .purple>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: purple;}
@@ -362,6 +363,7 @@ span.close-cursor {
 
 
 .red>.port>.title>h1>span{color: red;}
+.red>.port>.my-nav-mini>ul>li.activ{color: red;}
 .red>.port>.container>.img-content>.img-bord::before{background-color: red;}
 .red>.over-port>.over-port-container>.my-slids>h2{color: red;}
 .red>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: red;}
@@ -371,6 +373,7 @@ span.close-cursor {
 
 
 .blueviolet>.port>.title>h1>span{color: blueviolet;}
+.blueviolet>.port>.my-nav-mini>ul>li.activ{color: blueviolet;}
 .blueviolet>.port>.container>.img-content>.img-bord::before{background-color: blueviolet;}
 .blueviolet>.over-port>.over-port-container>.my-slids>h2{color: blueviolet;}
 .blueviolet>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: blueviolet;}
@@ -379,6 +382,7 @@ span.close-cursor {
 .blueviolet>.port>.my-nav>ul>li>h2{background-color: blueviolet;}
 
 .blue>.port>.title>h1>span{color: blue;}
+.blue>.port>.my-nav-mini>ul>li.activ{color: blue;}
 .blue>.port>.container>.img-content>.img-bord::before{background-color: blue;}
 .blue>.over-port>.over-port-container>.my-slids>h2{color: blue;}
 .blue>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: blue;}
@@ -387,6 +391,7 @@ span.close-cursor {
 .blue>.port>.my-nav>ul>li>h2{background-color: blue;}
 
 .goldenrod>.port>.title>h1>span{color: goldenrod;}
+.goldenrod>.port>.my-nav-mini>ul>li.activ{color: goldenrod;}
 .goldenrod>.port>.container>.img-content>.img-bord::before{background-color: goldenrod;}
 .goldenrod>.over-port>.over-port-container>.my-slids>h2{color: goldenrod;}
 .goldenrod>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: goldenrod;}
@@ -395,6 +400,7 @@ span.close-cursor {
 .goldenrod>.port>.my-nav>ul>li>h2{background-color: goldenrod;}
 
 .magenta>.port>.title>h1>span{color: magenta;}
+.magenta>.port>.my-nav-mini>ul>li.activ{color: magenta;}
 .magenta>.port>.container>.img-content>.img-bord::before{background-color: magenta;}
 .magenta>.over-port>.over-port-container>.my-slids>h2{color: magenta;}
 .magenta>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: magenta;}
@@ -403,6 +409,7 @@ span.close-cursor {
 .magenta>.port>.my-nav>ul>li>h2{background-color: magenta;}
 
 .yellowgreen>.port>.title>h1>span{color: yellowgreen;}
+.yellowgreen>.port>.my-nav-mini>ul>li.activ{color: yellowgreen;}
 .yellowgreen>.port>.container>.img-content>.img-bord::before{background-color: yellowgreen;}
 .yellowgreen>.over-port>.over-port-container>.my-slids>h2{color: yellowgreen;}
 .yellowgreen>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: yellowgreen;}
@@ -411,6 +418,7 @@ span.close-cursor {
 .yellowgreen>.port>.my-nav>ul>li>h2{background-color: yellowgreen;}
 
 .orange>.port>.title>h1>span{color: orange;}
+.orange>.port>.my-nav-mini>ul>li.activ{color: orange;}
 .orange>.port>.container>.img-content>.img-bord::before{background-color: orange;}
 .orange>.over-port>.over-port-container>.my-slids>h2{color: orange;}
 .orange>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: orange;}
@@ -419,6 +427,7 @@ span.close-cursor {
 .orange>.port>.my-nav>ul>li>h2{background-color: orange;}
 
 .green>.port>.title>h1>span{color: green;}
+.green>.port>.my-nav-mini>ul>li.activ{color: green;}
 .green>.port>.container>.img-content>.img-bord::before{background-color: green;}
 .green>.over-port>.over-port-container>.my-slids>h2{color: green;}
 .green>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: green;}
@@ -427,6 +436,7 @@ span.close-cursor {
 .green>.port>.my-nav>ul>li>h2{background-color: green;}
 
 .yellow>.port>.title>h1>span{color: yellow;}
+.yellow>.port>.my-nav-mini>ul>li.activ{color: yellow;}
 .yellow>.port>.container>.img-content>.img-bord::before{background-color: yellow;}
 .yellow>.over-port>.over-port-container>.my-slids>h2{color: yellow;}
 .yellow>.over-port>.over-port-container>.my-slids>.top-slide>.top-slide>ul>li>a{color: yellow;}
