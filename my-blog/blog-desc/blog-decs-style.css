@@ -436,4 +436,9 @@ body{
     }
 }
 /* End nav and change color */
+@media only screen and (max-width: 415px){
+    .my-nav-mini{
+        top: 45px;
+    }
+}
 /* End respnsive */

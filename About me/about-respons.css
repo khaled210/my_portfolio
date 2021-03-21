@@ -90,7 +90,7 @@
         display: block;
         width: 200px;
         height: 250px;
-        margin:80px 0 30px 40px;
+        margin:80px 0 30px 80px;
     }
     .my-img>img{
         border-radius: 50%;
@@ -130,7 +130,7 @@
         line-height: 1.2;
     }
     .about-me>.container>button{
-        top: 310px;
+        top: 280px;
         left: 10px;
     }
     .pers-info-number-content>div {
@@ -209,10 +209,6 @@
         width: 50%;
         margin: auto;
     }
-    .about-me>.container>button {
-        top: 265px;
-    }
-
     .pers-info-number-content>div {
         width: 80%;
         margin: 0 0px 20px 5px;
@@ -241,7 +237,7 @@
         margin-bottom: 0;
     }
     .second-pers-info-text {
-        margin-left: 20px;
+        margin-left: 50px;
     }
     .pers-info-text>div>ul>li {
         font-size: 12px;
