@@ -98,7 +98,7 @@
     } 
     
     .change-color{
-        display: none;
+        display: block;
     }
 }
 /* End nav and change color */
