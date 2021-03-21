@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-portfolio.css">
+    <link rel="stylesheet" href="responsiv-portfolio.css">
+    <link rel="stylesheet" href="../styles/all.min.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <section class="port">
+        <div class="title">
+            <h1>my <span>portfolio</span></h1>
+        </div>
+
+        <button class="btn-nav-mini">
+            <i class="fas fa-bars" id="open-nav" onclick="openNav()"></i>
+            <i class="fas fa-times" id="close-nav" onclick="closeNav()"></i>
+        </button>
+        <div class="my-nav-mini" id="my-nav-mini">
+            <ul id="mar">
+                <li>
+                    <i class="fas fa-home"><a href="../index.html">Home</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-user-alt"><a href="../About me/about.html">About</a></i>
+                    
+                </li>
+                <li class="activ">
+                    <i class="fas fa-briefcase"><a href="./portfolio/index-portfolio.html">portofolio</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-envelope-open"><a href="../contact/contact-index.html">contact</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-comments"><a href="../my-blog/blog-index.html">blog</a></i>
+                    
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="img-content " id="img-content">
+                <div class="img-bord" onclick="openModal();currentSlide(1)">
+                    <img src="./photos/project-1.jpg"  alt="">
+                </div>
+                <div class="img-bord" onclick="openModal();currentSlide(2)">
+                    <img src="./photos/project-2.jpg"  alt="">
+                </div>
+                <div class="img-bord" onclick="openModal();currentSlide(3)">
+                    <img src="./photos/project-3.jpg"  alt="">
+                </div>
+            </div>
+            <div class="img-content"id="img-content2">
+                <div class="img-bord" onclick="openModal();currentSlide(4)">
+                    <img src="./photos/project-4.jpg"  alt="">
+                </div>
+                <div class="img-bord" onclick="openModal();currentSlide(5)">
+                    <img src="./photos/project-5.jpg"  alt="">
+                </div>
+                <div class="img-bord" onclick="openModal();currentSlide(6)">
+                    <img src="./photos/project-6.jpg"  alt="">
+                </div>
+            </div>
+            <div class="img-content" id="img-content3">
+                <div class="img-bord" onclick="openModal();currentSlide(7)">
+                    <img src="./photos/project-7.jpg"  alt="">
+                </div>
+                <div class="img-bord" onclick="openModal();currentSlide(8)">
+                    <img src="./photos/project-8.jpg"  alt="">
+                </div>
+                <div class="img-bord" onclick="openModal();currentSlide(9)">
+                    <img src="./photos/project-9.jpg"  alt="">
+                </div>
+            </div>
+        </div>
+        <!-- section my nav -->
+        <div class="my-nav">
+            <ul>
+                <li>
+                    <h2>Home</h2>
+                    <a href="../index.html" >
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>About</h2>
+                    <a href="../About me/about.html">
+                        <i class="fas fa-user-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>portofolio</h2>
+                    <a class="activ" href="./portfolio/index-portfolio.html">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>contact</h2>
+                    <a href="../contact/contact-index.html">
+                        <i class="fas fa-envelope-open"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>blog</h2>
+                    <a href="../my-blog/blog-index.html">
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <!-- End section my nav -->
+    </section>
+
+    <section class="over-port" id="over-port">
+        <span class="close-cursor" id="close-cursor" onclick="closeModal()">&times;</span>
+         <div class="over-port-container">
+            <div class="my-slids">
+                 <h2>IMAGE PROJECT</h2>
+                 <div class="top-slide">
+                    <div class="top-slide left">
+                        <ul>
+                            <li>
+                                <i class="fas fa-file-alt"></i>
+                                Project : Website
+                            </li>
+                            <li>
+                                <i class="fas fa-code"></i>
+                                Langages : HTML, CSS, Javascript
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-slide right">
+                        <ul>
+                            <li>
+                                <i class="fas fa-user"></i>
+                                Client : Envato
+                            </li>
+                            <li>
+                                <i class="fas fa-external-link-alt"></i>
+                                Preview :
+                                <a href="">www.envato.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+                 <div class="buttom-slide">
+                    <img src="./photos/project-1.jpg"  alt="">
+                 </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                   <div class="top-slide left">
+                       <ul>
+                           <li>
+                               <i class="fas fa-file-alt"></i>
+                               Project : Website
+                           </li>
+                           <li>
+                               <i class="fas fa-code"></i>
+                               Langages : HTML, CSS, Javascript
+                           </li>
+                       </ul>
+                   </div>
+                   <div class="top-slide right">
+                       <ul>
+                           <li>
+                               <i class="fas fa-user"></i>
+                               Client : Envato
+                           </li>
+                           <li>
+                               <i class="fas fa-external-link-alt"></i>
+                               Preview :
+                               <a href="">www.envato.com</a>
+                           </li>
+                       </ul>
+                   </div>
+                </div>
+                <div class="buttom-slide">
+                   <img src="./photos/project-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                <div class="top-slide left">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            Project : Website
+                        </li>
+                        <li>
+                            <i class="fas fa-code"></i>
+                            Langages : HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-slide right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            Client : Envato
+                        </li>
+                        <li>
+                            <i class="fas fa-external-link-alt"></i>
+                            Preview :
+                            <a href="">www.envato.com</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="buttom-slide">
+                <img src="./photos/project-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                <div class="top-slide left">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            Project : Website
+                        </li>
+                        <li>
+                            <i class="fas fa-code"></i>
+                            Langages : HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-slide right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            Client : Envato
+                        </li>
+                        <li>
+                            <i class="fas fa-external-link-alt"></i>
+                            Preview :
+                            <a href="">www.envato.com</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="buttom-slide">
+                <img src="./photos/project-4.jpg" alt="">
+                </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                <div class="top-slide left">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            Project : Website
+                        </li>
+                        <li>
+                            <i class="fas fa-code"></i>
+                            Langages : HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-slide right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            Client : Envato
+                        </li>
+                        <li>
+                            <i class="fas fa-external-link-alt"></i>
+                            Preview :
+                            <a href="">www.envato.com</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="buttom-slide">
+                <img src="./photos/project-5.jpg" alt="">
+                </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                <div class="top-slide left">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            Project : Website
+                        </li>
+                        <li>
+                            <i class="fas fa-code"></i>
+                            Langages : HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-slide right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            Client : Envato
+                        </li>
+                        <li>
+                            <i class="fas fa-external-link-alt"></i>
+                            Preview :
+                            <a href="">www.envato.com</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="buttom-slide">
+                <img src="./photos/project-6.jpg" alt="">
+                </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                <div class="top-slide left">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            Project : Website
+                        </li>
+                        <li>
+                            <i class="fas fa-code"></i>
+                            Langages : HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-slide right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            Client : Envato
+                        </li>
+                        <li>
+                            <i class="fas fa-external-link-alt"></i>
+                            Preview :
+                            <a href="">www.envato.com</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="buttom-slide">
+                <img src="./photos/project-7.jpg" alt="">
+                </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                <div class="top-slide left">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            Project : Website
+                        </li>
+                        <li>
+                            <i class="fas fa-code"></i>
+                            Langages : HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-slide right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            Client : Envato
+                        </li>
+                        <li>
+                            <i class="fas fa-external-link-alt"></i>
+                            Preview :
+                            <a href="">www.envato.com</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="buttom-slide">
+                <img src="./photos/project-8.jpg" alt="">
+                </div>
+            </div>
+            <div class="my-slids">
+                <h2>IMAGE PROJECT</h2>
+                <div class="top-slide">
+                <div class="top-slide left">
+                    <ul>
+                        <li>
+                            <i class="fas fa-file-alt"></i>
+                            Project : Website
+                        </li>
+                        <li>
+                            <i class="fas fa-code"></i>
+                            Langages : HTML, CSS, Javascript
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-slide right">
+                    <ul>
+                        <li>
+                            <i class="fas fa-user"></i>
+                            Client : Envato
+                        </li>
+                        <li>
+                            <i class="fas fa-external-link-alt"></i>
+                            Preview :
+                            <a href="">www.envato.com</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="buttom-slide">
+                <img src="./photos/project-9.jpg" alt="">
+                </div>
+            </div>
+         </div>
+         <i class="fas fa-angle-left" onclick="plusSlides(-1)"></i>
+         <i class="fas fa-angle-right" onclick="plusSlides(1)"></i>
+    </section>
+
+    <div class="change-color" id="change-color" onclick="openBox()">
+        <i class="fas fa-cog"></i>
+    </div>
+    <div class="box-color" id="box-color" >
+        <div class="box-color-title">
+            <span>style switcher <i class="fas fa-times" onclick="closeBox()"></i></span>
+            
+        </div>
+        
+        <div class="box-color-content">
+            <ul>
+                <li><i class="fas fa-tint" data-color ="purple"></i></li>
+                <li><i class="fas fa-tint" data-color ="red"></i></li>
+                <li><i class="fas fa-tint" data-color ="blueviolet"></i></li>
+                <li><i class="fas fa-tint" data-color ="blue"></i></li>
+                <li><i class="fas fa-tint" data-color ="goldenrod"></i></li>
+            </ul>
+            <ul>
+                <li><i class="fas fa-tint" data-color ="magenta"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellowgreen"></i></li>
+                <li><i class="fas fa-tint" data-color ="orange"></i></li>
+                <li><i class="fas fa-tint" data-color ="green"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellow"></i></li>
+            </ul>
+        </div>
+        <button><i class="fas fa-cart-plus"></i> Purchase</button>
+    </div>
+
+
+    <script src="./script-portfolio.js"></script>
+</body>
+</html>

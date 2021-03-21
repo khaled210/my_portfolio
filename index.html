@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./photos/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive/respons.css">
+    <link rel="stylesheet" href="styles/all.min.css">
+    <title>My portofolio</title>
+</head>
+<body>
+    <!-- section home and header -->
+
+    <header class="main-page">
+        <div class="under-div"></div>
+        <div class="my-img">
+            <img src="photos/photo_2021-02-25_23-03-57.jpg" alt="">
+            <img src="photos/mini.jpg" alt="" class="mini-img">
+        </div>
+        <div class="my-text">
+            <h4>HI THERE !</h4>
+            <h2>I'M <span>Khaled Tawfeeq</span></h2>
+            <p>
+                I'm a Egyption based web designer & front‑end developer
+                focused on crafting clean & user‑friendly experiences,
+                I am passionate about building excellent software 
+                that improves the lives of those around me.
+            </p>
+            <button>more about me <i class="fas fa-user-alt"></i></button>
+        </div>
+        <div class="my-nav">
+            <ul>
+                <li>
+                    <h2>Home</h2>
+                    <a href="" class="activ">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>About</h2>
+                    <a href="./About me/about.html">
+                        <i class="fas fa-user-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>portofolio</h2>
+                    <a href="./portfolio/index-portfolio.html">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>contact</h2>
+                    <a href="./contact/contact-index.html">
+                        <i class="fas fa-envelope-open"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>blog</h2>
+                    <a href="./my-blog/blog-index.html">
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <button class="btn-nav-mini">
+            <i class="fas fa-bars" id="open-nav" onclick="openNav()"></i>
+            <i class="fas fa-times" id="close-nav" onclick="closeNav()"></i>
+        </button>
+        <div class="my-nav-mini" id="my-nav-mini">
+            <ul id="mar">
+                <li class="activ">
+                    <i class="fas fa-home"><a href="">Home</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-user-alt"><a href="./About me/about.html">About</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-briefcase"><a href="./portfolio/index-portfolio.html">portofolio</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-envelope-open"><a href="./contact/contact-index.html">contact</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-comments"><a href="./my-blog/blog-index.html">blog</a></i>
+                    
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- End section home and header -->
+
+    <!-- div to change color -->
+    <div class="change-color" id="change-color" onclick="openBox()">
+        <i class="fas fa-cog"></i>
+    </div>
+    <div class="box-color" id="box-color" >
+        <div class="box-color-title">
+            <span>style switcher <i class="fas fa-times" onclick="closeBox()"></i></span>
+            
+        </div>
+        
+        <div class="box-color-content">
+            <ul>
+                <li><i class="fas fa-tint" data-color ="purple"></i></li>
+                <li><i class="fas fa-tint" data-color ="red"></i></li>
+                <li><i class="fas fa-tint" data-color ="blueviolet"></i></li>
+                <li><i class="fas fa-tint" data-color ="blue"></i></li>
+                <li><i class="fas fa-tint" data-color ="goldenrod"></i></li>
+            </ul>
+            <ul>
+                <li><i class="fas fa-tint" data-color ="magenta"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellowgreen"></i></li>
+                <li><i class="fas fa-tint" data-color ="orange"></i></li>
+                <li><i class="fas fa-tint" data-color ="green"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellow"></i></li>
+            </ul>
+        </div>
+        <button><i class="fas fa-cart-plus"></i> Purchase</button>
+    </div>
+    <!-- End div to change color -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

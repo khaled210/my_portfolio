@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-color: black;
+    color: #fff;
+    
+}
+
+.contact{
+    background-color: black;  
+  }
+  
+  .title{
+      padding: 20px 0;
+      text-align: center;
+  }
+  .title>h1{
+      font-size: 50px;
+      font-weight: 900;
+      color: #fff;
+      text-transform: uppercase;
+  }
+  .title>h1>span{
+      color: #ffb400;
+  }
+
+
+  .container{
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 70px;
+  }
+
+  /* info div */
+
+  .info{
+      width: 40%;
+      margin-right: 10px;
+  }
+  .inputs{
+      margin-left: 60px;
+  }
+
+  .info>h3{
+      font-size: 30px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+  }
+
+  .info>p:nth-child(2){
+      padding-bottom: 30px;
+      line-height: 1.5;
+  }
+  .info>.mail{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info>.mail>div>i{
+    color: #ffb400;
+    margin: 0px 15px 0 0;
+    font-size: 40px;
+}
+
+.info>.mail>div>span{
+    display: block;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: #b2b7bd;;
+}
+
+.info>ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-right: 12px;
+    background: rgb(37, 37, 37);
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.8s;
+}
+
+.info>ul>li:hover{
+    background-color: #ffb400;
+}
+
+.info>ul>li>a{
+    border-radius: 50%;
+    color: #fff; 
+}
+
+  /* End info div */
+
+/* inputs div */
+.inputs>input{
+    width: 31%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    border: 1px solid rgb(17, 17, 17);
+    background: rgb(37, 37, 37);
+    padding: 11px 26px;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    outline: none ;
+    margin-right: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.inputs>textarea{
+    color: rgb(255, 255, 255);
+    width: 97%;
+    margin-bottom: 30px;
+    height: 230px;
+    border: 1px solid rgb(17, 17, 17);
+    background: rgb(37, 37, 37);
+    padding: 12px 26px;
+    overflow: hidden;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    outline: none ;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.inputs>button{
+    border-radius: 26px;
+    font-weight: 600;
+    height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 220px;
+    outline: none;
+    background-color: #ffb400;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.inputs>button>i{
+    transition: all 0.5s;
+    opacity: 0;
+    margin-left: -10px;
+
+}
+.inputs>button:hover i{
+    opacity: 1;
+    margin-left:10px ;
+}
+
+.btn-nav-mini{
+    display: none;
+}
+
+.my-nav-mini{
+    display: none;
+}
+
+/* End inputs div */
+
+/* section my nav */
+.my-nav{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    position: fixed;
+}
+.my-nav>ul>li{
+    margin-bottom: 45px; 
+    position: relative;
+    list-style: none;
+    padding-left: 150px;
+    cursor: pointer;
+}
+
+.my-nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #343a40;
+    padding: 15px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.my-nav>ul>li:hover a{
+    background-color: #ffb400;
+    color: #fff;
+}
+
+
+.my-nav>ul>li>a.activ{
+    background-color: #ffb400;
+}
+.my-nav>ul>li>h2{
+    background-color: #ffb400;
+    padding: 27px 27px 27px 10px;
+    width: 0px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    top: -16px;
+    right: 0;
+    left: 100px;
+    bottom: 75px;
+    z-index: -1;
+    list-style: none;
+    text-decoration: none;
+    line-height: 0px;
+    /* transition: visibility 0.4s, opacity 0.4s ,width 0.4s,left 0.4s; */
+    transition: all 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.my-nav>ul>li:hover h2{  
+    opacity: 1;
+    visibility: visible;
+    width: 150px;
+    left: 50px;
+}
+/* End section my nav */
+
+/* change color */
+.box{
+    position: relative;
+}
+
+.change-color{
+    position: fixed;
+    width: 65px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    top: 40%;
+    z-index: 10;
+    border-radius: 0px 7px 7px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.change-color>i{
+    font-size: 25px;
+    animation: spin 3s linear infinite;
+    margin: 18px 0 0 18px;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.box-color{
+    background-color: white;
+    width: 230px;
+    height: 230px;
+    position: fixed;
+    top: 30%;
+    z-index: 10;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -500px;
+    transition: all 0.5s;
+}
+.box-color-title{
+    padding: 5px 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box-color-title>span{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    padding: 8px 5px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 0px 0px 10px;
+}
+.box-color-title>span>i{
+    font-size: 25px;
+    color: darkgray;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.box-color-content>ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.box-color-content>ul>li{
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.box-color>button{
+    border-radius: 26px;
+    font-weight: 600;
+    height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 170px;
+    outline: none;
+    background-color: rgb(130, 180, 64);;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+/* End change color */
+
+/* attr to input */
+.inputs>input.border-attr{
+    border-color: #ffb400;
+    border-width: 3px;
+    border-style: solid;
+    transition: all 0.5s;  
+}
+.inputs>textarea.border-attr{
+    border: #ffb400 3px solid;
+    transition: all 0.5s;  
+}
+/* attr to input */
+
+/* classes to change icon */
+.box-color-content>ul:first-child>li:first-child{color: purple;}
+.box-color-content>ul:first-child>li:nth-child(2){color: red;}
+.box-color-content>ul:first-child>li:nth-child(3){color: blueviolet;}
+.box-color-content>ul:first-child>li:nth-child(4){color: blue;}
+.box-color-content>ul:first-child>li:nth-child(5){color: goldenrod;} 
+
+
+.box-color-content>ul:last-child>li:first-child{color: magenta;}
+.box-color-content>ul:last-child>li:nth-child(2){color: yellowgreen;}
+.box-color-content>ul:last-child>li:nth-child(3){color: orange;}
+.box-color-content>ul:last-child>li:nth-child(4){color: green;}
+.box-color-content>ul:last-child>li:nth-child(5){color: yellow;} 
+
+
+
+.purple>.contact>.title>h1>span{color: purple;}
+.purple>.contact>.container>.info>.mail>div>i{color: purple;}
+.purple>.contact>.container>.info>ul>li:hover{background-color: purple;}
+.purple>.contact>.container>.inputs>button{background-color: purple;}
+.purple>.contact>.my-nav>ul>li:hover a{background-color: purple;}
+.purple>.contact>.my-nav>ul>li>a.activ{background-color: purple;}
+.purple>.contact>.my-nav>ul>li>h2{background-color: purple;}
+.purple>.contact>.container>.inputs>input.border-attr{border-color: purple;}
+.purple>.contact>.container>.inputs>textarea.border-attr{border-color: purple;}
+
+
+.red>.contact>.title>h1>span{color: red;}
+.red>.contact>.container>.info>.mail>div>i{color: red;}
+.red>.contact>.container>.info>ul>li:hover{background-color: red;}
+.red>.contact>.container>.inputs>button{background-color: red;}
+.red>.contact>.my-nav>ul>li:hover a{background-color: red;}
+.red>.contact>.my-nav>ul>li>a.activ{background-color: red;}
+.red>.contact>.my-nav>ul>li>h2{background-color: red;}
+.red>.contact>.container>.inputs>input.border-attr{border-color: red;}
+.red>.contact>.container>.inputs>textarea.border-attr{border-color: red;}
+
+
+.blueviolet>.contact>.title>h1>span{color: blueviolet;}
+.blueviolet>.contact>.container>.info>.mail>div>i{color: blueviolet;}
+.blueviolet>.contact>.container>.info>ul>li:hover{background-color: blueviolet;}
+.blueviolet>.contact>.container>.inputs>button{background-color: blueviolet;}
+.blueviolet>.contact>.my-nav>ul>li:hover a{background-color: blueviolet;}
+.blueviolet>.contact>.my-nav>ul>li>a.activ{background-color: blueviolet;}
+.blueviolet>.contact>.my-nav>ul>li>h2{background-color: blueviolet;}
+.blueviolet>.contact>.container>.inputs>input.border-attr{border-color: blueviolet;}
+.blueviolet>.contact>.container>.inputs>textarea.border-attr{border-color: blueviolet;}
+
+.blue>.contact>.title>h1>span{color: blue;}
+.blue>.contact>.container>.info>.mail>div>i{color: blue;}
+.blue>.contact>.container>.info>ul>li:hover{background-color: blue;}
+.blue>.contact>.container>.inputs>button{background-color: blue;}
+.blue>.contact>.my-nav>ul>li:hover a{background-color: blue;}
+.blue>.contact>.my-nav>ul>li>a.activ{background-color: blue;}
+.blue>.contact>.my-nav>ul>li>h2{background-color: blue;}
+.blue>.contact>.container>.inputs>input.border-attr{border-color: blue;}
+.blue>.contact>.container>.inputs>textarea.border-attr{border-color: blue;}
+
+.goldenrod>.contact>.title>h1>span{color: goldenrod;}
+.goldenrod>.contact>.container>.info>.mail>div>i{color: goldenrod;}
+.goldenrod>.contact>.container>.info>ul>li:hover{background-color: goldenrod;}
+.goldenrod>.contact>.container>.inputs>button{background-color: goldenrod;}
+.goldenrod>.contact>.my-nav>ul>li:hover a{background-color: goldenrod;}
+.goldenrod>.contact>.my-nav>ul>li>a.activ{background-color: goldenrod;}
+.goldenrod>.contact>.my-nav>ul>li>h2{background-color: goldenrod;}
+.goldenrod>.contact>.container>.inputs>input.border-attr{border-color: goldenrod;}
+.goldenrod>.contact>.container>.inputs>textarea.border-attr{border-color: goldenrod;}
+
+
+.magenta>.contact>.title>h1>span{color: magenta;}
+.magenta>.contact>.container>.info>.mail>div>i{color: magenta;}
+.magenta>.contact>.container>.info>ul>li:hover{background-color: magenta;}
+.magenta>.contact>.container>.inputs>button{background-color: magenta;}
+.magenta>.contact>.my-nav>ul>li:hover a{background-color: magenta;}
+.magenta>.contact>.my-nav>ul>li>a.activ{background-color: magenta;}
+.magenta>.contact>.my-nav>ul>li>h2{background-color: magenta;}
+.magenta>.contact>.container>.inputs>input.border-attr{border-color: magenta;}
+.magenta>.contact>.container>.inputs>textarea.border-attr{border-color: magenta;}
+
+
+.yellowgreen>.contact>.title>h1>span{color: yellowgreen;}
+.yellowgreen>.contact>.container>.info>.mail>div>i{color: yellowgreen;}
+.yellowgreen>.contact>.container>.info>ul>li:hover{background-color: yellowgreen;}
+.yellowgreen>.contact>.container>.inputs>button{background-color: yellowgreen;}
+.yellowgreen>.contact>.my-nav>ul>li:hover a{background-color: yellowgreen;}
+.yellowgreen>.contact>.my-nav>ul>li>a.activ{background-color: yellowgreen;}
+.yellowgreen>.contact>.my-nav>ul>li>h2{background-color: yellowgreen;}
+.yellowgreen>.contact>.container>.inputs>input.border-attr{border-color: yellowgreen;}
+.yellowgreen>.contact>.container>.inputs>textarea.border-attr{border-color: yellowgreen;}
+
+
+.orange>.contact>.title>h1>span{color: orange;}
+.orange>.contact>.container>.info>.mail>div>i{color: orange;}
+.orange>.contact>.container>.info>ul>li:hover{background-color: orange;}
+.orange>.contact>.container>.inputs>button{background-color: orange;}
+.orange>.contact>.my-nav>ul>li:hover a{background-color: orange;}
+.orange>.contact>.my-nav>ul>li>a.activ{background-color: orange;}
+.orange>.contact>.my-nav>ul>li>h2{background-color: orange;}
+.orange>.contact>.container>.inputs>input.border-attr{border-color: orange;}
+.orange>.contact>.container>.inputs>textarea.border-attr{border-color: orange;}
+
+
+.green>.contact>.title>h1>span{color: green;}
+.green>.contact>.container>.info>.mail>div>i{color: green;}
+.green>.contact>.container>.info>ul>li:hover{background-color: green;}
+.green>.contact>.container>.inputs>button{background-color: green;}
+.green>.contact>.my-nav>ul>li:hover a{background-color: green;}
+.green>.contact>.my-nav>ul>li>a.activ{background-color: green;}
+.green>.contact>.my-nav>ul>li>h2{background-color: green;}
+.green>.contact>.container>.inputs>input.border-attr{border-color: green;}
+.green>.contact>.container>.inputs>textarea.border-attr{border-color: green;}
+
+
+.yellow>.contact>.title>h1>span{color: yellow;}
+.yellow>.contact>.container>.info>.mail>div>i{color: yellow;}
+.yellow>.contact>.container>.info>ul>li:hover{background-color: yellow;}
+.yellow>.contact>.container>.inputs>button{background-color: yellow;}
+.yellow>.contact>.my-nav>ul>li:hover a{background-color: yellow;}
+.yellow>.contact>.my-nav>ul>li>a.activ{background-color: yellow;}
+.yellow>.contact>.my-nav>ul>li>h2{background-color: yellow;}
+.yellow>.contact>.container>.inputs>input.border-attr{border-color: yellow;}
+.yellow>.contact>.container>.inputs>textarea.border-attr{border-color: yellow;}

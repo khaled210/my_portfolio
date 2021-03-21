@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="../styles/all.min.css">
+    <link rel="stylesheet" href="./cntact-style.css">
+    <link rel="stylesheet" href="./respnsive contact.css">
+</head>
+<body>
+
+    <section class="contact">
+        <div class="title">
+            <h1>get in <span>touch</span></h1>
+        </div>
+        <button class="btn-nav-mini">
+            <i class="fas fa-bars" id="open-nav" onclick="openNav()"></i>
+            <i class="fas fa-times" id="close-nav" onclick="closeNav()"></i>
+        </button>
+        <div class="my-nav-mini" id="my-nav-mini">
+            <ul id="mar">
+                <li>
+                    <i class="fas fa-home"><a href="../index.html">Home</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-user-alt"><a href="../About me/about.html">About</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-briefcase"><a href="../portfolio/index-portfolio.html">portofolio</a></i>
+                    
+                </li>
+                <li class="activ">
+                    <i class="fas fa-envelope-open"><a href="./contact-index.html">contact</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-comments"><a href="../my-blog/blog-index.html">blog</a></i>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="info">
+                <h3>don't be shy !</h3>
+                <p>
+                    Feel free to get in touch with me.
+                     I am always open to discussing new projects,
+                     creative ideas or opportunities to be 
+                     part of your visions.
+                </p>
+                <div class="mail">
+                    <div><i class="fas fa-envelope-open"></i></div>
+                    <div>
+                        <span>mail me:</span>
+                        tawfeek171@gmail.com
+                    </div>
+                </div>
+                <div class="mail">
+                    <div><i class="fas fa-phone-square-alt"></i></div>
+                    <div>
+                        <span>call me:</span>
+                        01067571338
+                    </div>
+                </div>
+                <ul>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+            <div class="inputs">
+                <input type="text" placeholder="your name" class="inpu">
+                <input type="text" placeholder="your email" class="inpu">
+                <input type="text" placeholder="your subject" class="inpu">
+                <textarea cols="30" rows="10" placeholder="your message" class="inpu"></textarea>
+                <button>send message<i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <div class="my-nav">
+            <ul>
+                <li>
+                    <h2>Home</h2>
+                    <a href="../index.html" >
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>About</h2>
+                    <a href="../About me/about.html">
+                        <i class="fas fa-user-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>portofolio</h2>
+                    <a href="../portfolio/index-portfolio.html">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>contact</h2>
+                    <a href="" class="activ">
+                        <i class="fas fa-envelope-open"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>blog</h2>
+                    <a href="../my-blog/blog-index.html">
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="change-color" id="change-color" onclick="openBox()">
+        <i class="fas fa-cog"></i>
+    </div>
+    <div class="box-color" id="box-color" >
+        <div class="box-color-title">
+            <span>style switcher <i class="fas fa-times" onclick="closeBox()"></i></span>
+            
+        </div>
+        
+        <div class="box-color-content">
+            <ul>
+                <li><i class="fas fa-tint" data-color ="purple"></i></li>
+                <li><i class="fas fa-tint" data-color ="red"></i></li>
+                <li><i class="fas fa-tint" data-color ="blueviolet"></i></li>
+                <li><i class="fas fa-tint" data-color ="blue"></i></li>
+                <li><i class="fas fa-tint" data-color ="goldenrod"></i></li>
+            </ul>
+            <ul>
+                <li><i class="fas fa-tint" data-color ="magenta"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellowgreen"></i></li>
+                <li><i class="fas fa-tint" data-color ="orange"></i></li>
+                <li><i class="fas fa-tint" data-color ="green"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellow"></i></li>
+            </ul>
+        </div>
+        <button><i class="fas fa-cart-plus"></i> Purchase</button>
+    </div>
+
+    <script src="./contact-script.js"></script>
+</body>
+</html>

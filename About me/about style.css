@@ -1,0 +1,773 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@400;800&display=swap");
+@import url("F:\my portofolio\About me/about-respons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #111;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+
+/* The header */
+.title{
+    text-align: center;
+    margin-top: 5%;
+}
+.title>h1{
+    font-size: 56px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title>h1>span{
+    color: #ffb400;
+}
+.title>.bg-title{
+    font-size: 215px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: -15%;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.07);
+    display: none;
+}
+.btn-nav-mini{
+    display: none;
+}
+
+.my-nav-mini{
+    display: none;
+}
+
+/* End the header */
+
+/* my-img */
+.my-img>img{
+    display: none;
+}
+/* End my-img */
+
+/* personal info section */
+
+.about-me{
+    position: relative;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.About-personal-info{
+    display: flex;
+    justify-content: space-around;
+}
+.pers-info-text{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.about-me>.container>h2{
+    font-size: 22px;
+    padding: 0 0 22px 0;
+    color: #fff;
+    position: absolute;
+}
+
+.pers-info-text>div>ul>li{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 2.5;
+}
+.pers-info-text>div>ul>li>span{
+    opacity: .6;
+}
+
+.second-pers-info-text{
+    margin-left: 70px;
+}
+
+.about-me>.container>button{
+    position: absolute;
+    border-radius: 26px;
+    font-weight: 600;
+    height: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 180px;
+    outline: none;
+    background-color: #ffb400;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+    top: 250px;
+}
+.about-me>.container>button>i{
+    transition: all 0.5s;
+    opacity: 0;
+    margin-left: -10px;
+}
+
+.about-me>.container>button:hover i{
+    opacity: 1;
+    margin-left:10px ;
+}
+
+
+
+
+
+.pers-info-number{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.pers-info-number-content>div{
+    padding: 25px 45px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+    width: 100%;
+    height: 140px; 
+    margin: 0 25px 20px 0;
+    color: #fff;
+}
+.pers-info-number-content.right{
+    width: 260px;
+}
+.pers-info-number-content.left {
+    margin-left: -50px;
+}
+
+.pers-info-number-content>div>h3{
+    color: #ffb400;
+    font-size: 50px;
+    font-weight: 700;
+}
+.pers-info-number-content>div>h3::after{
+    content: "+";
+    color: #ffb400;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.pers-info-number-content>div>p{
+    line-height: 1.5;
+    font-size: 14px;
+    margin-left: 65px;
+    position: relative;
+}
+.pers-info-number-content>div>p::before{
+    content: "";
+    width: 40px;
+    height: 1px;
+    background: #777;
+    position: absolute;
+    margin-top: 7px;
+    left: -57px;
+}
+
+.pers-info-number-content>div>p>span{
+    display: block;
+}
+
+/* End personal info section */
+
+.breake{
+    width: 50%;
+    height: 5px;
+    background-color: #252525;
+    margin: 50px auto;
+}
+
+/* my skills section */
+.my-skills{
+    width: 80%;
+    margin: auto;
+}
+
+
+.my-skills .skill-title>h2{
+    margin: 10px auto 50px auto;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+}
+.skill-content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+
+/* after 50% */
+
+.skill-content>.sirc-left{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #111;
+}
+
+.sirc-left>.white-sirc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(61, 59, 59);
+    border-radius: 50%;
+}
+
+.sirc-left>.white-sirc>.yell-sirc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffb400;
+    border-radius: 50%;
+    clip: rect(0px 150px 150px 75px);
+}
+
+.sirc-left>.white-sirc.left>.yell-sirc{
+    transform: rotate(140deg);
+    z-index: 1;
+}
+.sirc-left>.white-sirc.left>.yell-sirc.js{
+    transform: rotate(140deg);
+    z-index: 1;
+}
+.sirc-left>.white-sirc.left>.yell-sirc.css{
+    transform: rotate(70deg);
+    z-index: 1;
+}
+.sirc-left>.white-sirc.left>.yell-sirc.php{
+    transform: rotate(60deg);
+    z-index: 1;
+}
+.sirc-left>.white-sirc.left>.yell-sirc.wordpress{
+    transform: rotate(155deg);
+    z-index: 1;
+}
+.sirc-left>.white-sirc.left>.yell-sirc.jquery{
+    transform: rotate(0deg);
+    z-index: 1;
+}
+.sirc-left>.white-sirc.left>.yell-sirc.anguler{
+    transform: rotate(57deg);
+    z-index: 1;
+}
+
+
+
+
+.skill-content>.sirc-left>.cover-sirc{
+    width: 85%;
+    height: 85%;
+    background-color: #111;
+    position: absolute;
+    z-index: 22;
+    border-radius: 50%;
+    top: 11px;
+    left: 12px;
+}
+.skill-content>.sirc-left>.cover-sirc>span{
+    position: absolute;
+    top: 47px;
+    left: 35px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+/* before 50% */
+
+.skill-content>.sirc-right{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #111;
+}
+
+.sirc-right>.white-sirc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(61, 59, 59);
+    border-radius: 50%;
+}
+
+.sirc-right>.white-sirc.left>.yell-sirc{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffb400;
+    border-radius: 50%;
+    clip: rect(0px 75px 150px 0px);
+    transform: rotate(140deg);
+    z-index: 1;
+}
+.sirc-right>.white-sirc.left>.yell-sirc.html{
+    transform: rotate(90deg);
+}
+.sirc-right>.white-sirc.left>.yell-sirc.react{
+    transform: rotate(150deg);
+}
+
+.skill-content>.sirc-right>.cover-sirc{
+    width: 85%;
+    height: 85%;
+    background-color: #111;
+    position: absolute;
+    z-index: 22;
+    border-radius: 50%;
+    top: 11px;
+    left: 12px;
+}
+.skill-content>.sirc-right>.cover-sirc>span{
+    position: absolute;
+    top: 47px;
+    left: 35px;
+    font-size: 30px;
+    color: white;
+}
+.m3lesh{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(61, 59, 59);;
+    border-radius: 50%;
+    clip: rect(0px 75px 150px 0px);
+    z-index: 10;
+  }
+
+
+.sirc-desc>h3{
+    position: absolute;
+    color: #fff;
+    top: 180px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.sirc-desc>h3.jw{
+    left: 10px; 
+}
+.sirc-desc>h3.cp{
+    left: 54px;
+}
+.sirc-desc>h3.ja{
+    left: 29px;
+}
+.sirc-desc>h3.hr{
+    left: 45px;
+}
+.sirc-desc>h3.jq{  
+    left: 35px;   
+}
+
+/* End my skills section */
+
+/* education section */
+.education{
+    color: #fff;
+}
+.education-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 0;
+    width: 70%;
+    margin: auto;
+}
+.education-title{
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+.education-content{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 40px 10px ;
+}
+.edication-icon{
+    margin-right: 30px;
+}
+.edication-icon>i{
+    background-color: #ffb400;
+    border-radius: 50%;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+}
+.edication-icon::after{
+    content: "";
+    background-color: rgb(95, 92, 92);
+    width: 0.3px;
+    height: 90px;
+    display: block;
+    margin-left: 21px;
+}
+.education-desc{
+    line-height: ;
+    margin-top: 8px;
+    letter-spacing: 10;
+}
+.education-desc>span{
+    background-color: rgb(48, 48, 48);
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: -25px;
+}
+.education-desc>h3{
+    margin: 25px 0 15px 0;
+}
+.education-desc>h3>span{
+    color: rgb(145, 145, 145);
+    font-size: 17px;
+}
+.education-desc>p{
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(238, 238, 238);
+}
+
+/* End education section */
+
+/* section my nav */
+.my-nav{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    position: fixed;
+}
+.my-nav>ul>li{
+    margin-bottom: 45px; 
+    position: relative;
+    list-style: none;
+    padding-left: 150px;
+    cursor: pointer;
+}
+
+.my-nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #343a40;
+    padding: 15px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.my-nav>ul>li:hover a{
+    background-color: #ffb400;
+    color: #fff;
+}
+
+
+.my-nav>ul>li>a.activ{
+    background-color: #ffb400;
+}
+.my-nav>ul>li>h2{
+    background-color: #ffb400;
+    padding: 27px 27px 27px 10px;
+    width: 0px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    top: -16px;
+    right: 0;
+    left: 100px;
+    bottom: 75px;
+    z-index: -1;
+    list-style: none;
+    text-decoration: none;
+    line-height: 0px;
+    /* transition: visibility 0.4s, opacity 0.4s ,width 0.4s,left 0.4s; */
+    transition: all 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.my-nav>ul>li:hover h2{  
+    opacity: 1;
+    visibility: visible;
+    width: 150px;
+    left: 50px;
+}
+/* End section my nav */
+
+/* change color */
+.box{
+    position: relative;
+}
+
+.change-color{
+    position: fixed;
+    width: 65px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    top: 40%;
+    z-index: 10;
+    border-radius: 0px 7px 7px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.change-color>i{
+    font-size: 25px;
+    animation: spin 3s linear infinite;
+    margin: 18px 0 0 18px;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.box-color{
+    background-color: white;
+    width: 230px;
+    height: 230px;
+    position: fixed;
+    top: 30%;
+    z-index: 10;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -500px;
+    transition: all 0.5s;
+}
+.box-color-title{
+    padding: 5px 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box-color-title>span{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    padding: 8px 5px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 0px 0px 10px;
+}
+.box-color-title>span>i{
+    font-size: 25px;
+    color: darkgray;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.box-color-content>ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.box-color-content>ul>li{
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.box-color>button{
+    border-radius: 26px;
+    font-weight: 600;
+    height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 170px;
+    outline: none;
+    background-color: rgb(130, 180, 64);;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+/* classes to change icon */
+.box-color-content>ul:first-child>li:first-child{color: purple;}
+.box-color-content>ul:first-child>li:nth-child(2){color: red;}
+.box-color-content>ul:first-child>li:nth-child(3){color: blueviolet;}
+.box-color-content>ul:first-child>li:nth-child(4){color: blue;}
+.box-color-content>ul:first-child>li:nth-child(5){color: goldenrod;} 
+
+
+.box-color-content>ul:last-child>li:first-child{color: magenta;}
+.box-color-content>ul:last-child>li:nth-child(2){color: yellowgreen;}
+.box-color-content>ul:last-child>li:nth-child(3){color: orange;}
+.box-color-content>ul:last-child>li:nth-child(4){color: green;}
+.box-color-content>ul:last-child>li:nth-child(5){color: yellow;} 
+
+
+
+
+.purple>.title>h1>span{color: purple;}
+.purple>.about-me>.container>button{background-color: purple;}
+.purple>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: purple;}
+.purple>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: purple;}
+.purple>.about-me>.my-nav>ul>li:hover a{background-color: purple;}
+.purple>.about-me>.my-nav>ul>li>a.activ{background-color: purple;}
+.purple>.about-me>.my-nav>ul>li>h2{background-color: purple;}
+.purple>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: purple;}
+.purple>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: purple;}
+.purple>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: purple;}
+.purple>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: purple;}
+
+
+.red>.title>h1>span{color: red;}
+.red>.about-me>.container>button{background-color: red;}
+.red>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: red;}
+.red>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: red;}
+.red>.about-me>.my-nav>ul>li:hover a{background-color: red;}
+.red>.about-me>.my-nav>ul>li>a.activ{background-color: red;}
+.red>.about-me>.my-nav>ul>li>h2{background-color: red;}
+.red>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: red;}
+.red>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: red;}
+.red>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: red;}
+.red>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: red;}
+
+
+.blueviolet>.title>h1>span{color: blueviolet;}
+.blueviolet>.about-me>.container>button{background-color: blueviolet;}
+.blueviolet>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: blueviolet;}
+.blueviolet>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: blueviolet;}
+.blueviolet>.about-me>.my-nav>ul>li:hover a{background-color: blueviolet;}
+.blueviolet>.about-me>.my-nav>ul>li>a.activ{background-color: blueviolet;}
+.blueviolet>.about-me>.my-nav>ul>li>h2{background-color: blueviolet;}
+.blueviolet>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: blueviolet;}
+.blueviolet>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: blueviolet;}
+.blueviolet>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: blueviolet;}
+.blueviolet>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: blueviolet;}
+
+
+.blue>.title>h1>span{color: blue;}
+.blue>.about-me>.container>button{background-color: blue;}
+.blue>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: blue;}
+.blue>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: blue;}
+.blue>.about-me>.my-nav>ul>li:hover a{background-color: blue;}
+.blue>.about-me>.my-nav>ul>li>a.activ{background-color: blue;}
+.blue>.about-me>.my-nav>ul>li>h2{background-color: blue;}
+.blue>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: blue;}
+.blue>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: blue;}
+.blue>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: blue;}
+.blue>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: blue;}
+
+
+.goldenrod>.title>h1>span{color: goldenrod;}
+.goldenrod>.about-me>.container>button{background-color: goldenrod;}
+.goldenrod>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: goldenrod;}
+.goldenrod>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: goldenrod;}
+.goldenrod>.about-me>.my-nav>ul>li:hover a{background-color: goldenrod;}
+.goldenrod>.about-me>.my-nav>ul>li>a.activ{background-color: goldenrod;}
+.goldenrod>.about-me>.my-nav>ul>li>h2{background-color: goldenrod;}
+.goldenrod>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: goldenrod;}
+.goldenrod>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: goldenrod;}
+.goldenrod>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: goldenrod;}
+.goldenrod>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: goldenrod;}
+
+
+.magenta>.title>h1>span{color: magenta;}
+.magenta>.about-me>.container>button{background-color: magenta;}
+.magenta>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: magenta;}
+.magenta>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: magenta;}
+.magenta>.about-me>.my-nav>ul>li:hover a{background-color: magenta;}
+.magenta>.about-me>.my-nav>ul>li>a.activ{background-color: magenta;}
+.magenta>.about-me>.my-nav>ul>li>h2{background-color: magenta;}
+.magenta>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: magenta;}
+.magenta>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: magenta;}
+.magenta>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: magenta;}
+.magenta>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: magenta;}
+
+
+.yellowgreen>.title>h1>span{color: yellowgreen;}
+.yellowgreen>.about-me>.container>button{background-color: yellowgreen;}
+.yellowgreen>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: yellowgreen;}
+.yellowgreen>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: yellowgreen;}
+.yellowgreen>.about-me>.my-nav>ul>li:hover a{background-color: yellowgreen;}
+.yellowgreen>.about-me>.my-nav>ul>li>a.activ{background-color: yellowgreen;}
+.yellowgreen>.about-me>.my-nav>ul>li>h2{background-color: yellowgreen;}
+.yellowgreen>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: yellowgreen;}
+.yellowgreen>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: yellowgreen;}
+.yellowgreen>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: yellowgreen;}
+.yellowgreen>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: yellowgreen;}
+
+
+.orange>.title>h1>span{color: orange;}
+.orange>.about-me>.container>button{background-color: orange;}
+.orange>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: orange;}
+.orange>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: orange;}
+.orange>.about-me>.my-nav>ul>li:hover a{background-color: orange;}
+.orange>.about-me>.my-nav>ul>li>a.activ{background-color: orange;}
+.orange>.about-me>.my-nav>ul>li>h2{background-color: orange;}
+.orange>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: orange;}
+.orange>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: orange;}
+.orange>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: orange;}
+.orange>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: orange;}
+
+
+.green>.title>h1>span{color: green;}
+.green>.about-me>.container>button{background-color: green;}
+.green>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: green;}
+.green>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: green;}
+.green>.about-me>.my-nav>ul>li:hover a{background-color: green;}
+.green>.about-me>.my-nav>ul>li>a.activ{background-color: green;}
+.green>.about-me>.my-nav>ul>li>h2{background-color: green;}
+.green>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: green;}
+.green>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: green;}
+.green>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: green;}
+.green>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: green;}
+
+
+.yellow>.title>h1>span{color: yellow;}
+.yellow>.about-me>.container>button{background-color: yellow;}
+.yellow>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3{color: yellow;}
+.yellow>.about-me>.container>.About-personal-info>.pers-info-number>.pers-info-number-content>div>h3::after{color: yellow;}
+.yellow>.about-me>.my-nav>ul>li:hover a{background-color: yellow;}
+.yellow>.about-me>.my-nav>ul>li>a.activ{background-color: yellow;}
+.yellow>.about-me>.my-nav>ul>li>h2{background-color: yellow;}
+.yellow>.my-skills>.skill-content>.sirc-left>.white-sirc>.yell-sirc{background-color: yellow;}
+.yellow>.my-skills>.skill-content>.sirc-right>.white-sirc.left>.yell-sirc{background-color: yellow;}
+.yellow>.education>.education-container>.education-left>.education-content>.edication-icon>i{background-color: yellow;}
+.yellow>.education>.education-container>.education-right>.education-content>.edication-icon>i{background-color: yellow;}
+
+/* End classes to change icon */
+
+
+
+
+
+
+
+
+
+

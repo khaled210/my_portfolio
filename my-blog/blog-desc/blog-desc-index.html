@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>description-blog</title>
+    <link rel="stylesheet" href="../../styles/all.min.css">
+    <link rel="stylesheet" href="./blog-decs-style.css">
+</head>
+<body>
+    <section class="desc-blog">
+        <div class="title">
+            <h1>my <span>blog</span></h1>
+        </div>
+        <button class="btn-nav-mini">
+            <i class="fas fa-bars" id="open-nav" onclick="openNav()"></i>
+            <i class="fas fa-times" id="close-nav" onclick="closeNav()"></i>
+        </button>
+        <div class="my-nav-mini" id="my-nav-mini">
+            <ul id="mar">
+                <li>
+                    <i class="fas fa-home"><a href="../index.html">Home</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-user-alt"><a href="../About me/about.html">About</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-briefcase"><a href="../portfolio/index-portfolio.html">portofolio</a></i>
+                    
+                </li>
+                <li class="activ">
+                    <i class="fas fa-envelope-open"><a href="./contact-index.html">contact</a></i>
+                    
+                </li>
+                <li>
+                    <i class="fas fa-comments"><a href="">blog</a></i>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="blog-info">
+                <ul>
+                    <li><i class="fas fa-user"></i> steve</li>
+                    <li><i class="far fa-calendar-alt"></i> 9 January 2017</li>
+                    <li><i class="fas fa-tag"></i> wordpress, business, economy, design</li>
+                </ul>
+            </div>
+            <div class="artc">
+                <h2>
+                    Everything You Need To Know About
+                     Web Accessibility
+                </h2>
+                <div class="artc-img">
+                    <img src="../photos/blog-post-1.jpg" alt="">
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum.Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit
+                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum.Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+        <div class="my-nav">
+            <ul>
+                <li>
+                    <h2>Home</h2>
+                    <a href="../index.html" >
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>About</h2>
+                    <a href="../About me/about.html">
+                        <i class="fas fa-user-alt"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>portofolio</h2>
+                    <a href="../portfolio/index-portfolio.html">
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>contact</h2>
+                    <a href="" >
+                        <i class="fas fa-envelope-open"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>blog</h2>
+                    <a href="" class="activ">
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="change-color" id="change-color" onclick="openBox()">
+        <i class="fas fa-cog"></i>
+    </div>
+    <div class="box-color" id="box-color" >
+        <div class="box-color-title">
+            <span>style switcher <i class="fas fa-times" onclick="closeBox()"></i></span>
+            
+        </div>
+        
+        <div class="box-color-content">
+            <ul>
+                <li><i class="fas fa-tint" data-color ="purple"></i></li>
+                <li><i class="fas fa-tint" data-color ="red"></i></li>
+                <li><i class="fas fa-tint" data-color ="blueviolet"></i></li>
+                <li><i class="fas fa-tint" data-color ="blue"></i></li>
+                <li><i class="fas fa-tint" data-color ="goldenrod"></i></li>
+            </ul>
+            <ul>
+                <li><i class="fas fa-tint" data-color ="magenta"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellowgreen"></i></li>
+                <li><i class="fas fa-tint" data-color ="orange"></i></li>
+                <li><i class="fas fa-tint" data-color ="green"></i></li>
+                <li><i class="fas fa-tint" data-color ="yellow"></i></li>
+            </ul>
+        </div>
+        <button><i class="fas fa-cart-plus"></i> Purchase</button>
+    </div>
+
+    <script>
+// this two function to the nav in the phone
+
+        function openNav(){
+            document.getElementById("open-nav").style.display="none";
+            document.getElementById("close-nav").style.display="block";
+            document.getElementById("my-nav-mini").style.width="100%";
+        
+        }
+        function closeNav(){
+            document.getElementById("open-nav").style.display="block";
+            document.getElementById("close-nav").style.display="none";
+            document.getElementById("my-nav-mini").style.width="0%";
+        }
+  
+// End two function to the nav in the phone
+
+// this two function to display block and non for the color box
+
+function openBox(){
+    document.getElementById("change-color").style.marginLeft="-500px";
+    document.getElementById("box-color").style.marginLeft="0px";
+  }
+  function closeBox(){
+    document.getElementById("change-color").style.marginLeft="0";
+    document.getElementById("box-color").style.marginLeft="-500px";
+  }
+  
+  // End two function to display block and non for the color box
+  
+  // this code to change color
+  document.body.classList.add(localStorage.getItem("saveColor") || "purple")
+  
+  var el = document.querySelectorAll(".box-color-content ul li i"),
+  hear = document.querySelectorAll("body:first-child"),
+  classItem = [];
+  
+  for (i = 0 ; i < el.length ; i++ ){
+    classItem.push(el[i].getAttribute("data-color"));
+  
+    el[i].addEventListener("click", function(){
+        document.body.classList.remove(...classItem)
+        document.body.classList.add(this.getAttribute("data-color"))
+        localStorage.setItem("saveColor", this.getAttribute("data-color"))
+    })
+  }
+  console.log(classItem);
+  
+  // End code to change color
+
+  
+
+    </script>
+</body>
+</html>

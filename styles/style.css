@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@400;800&display=swap");
+@import url("F:\my portofolio\styles\responsive");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* direction: rtl; */
+}
+
+body{
+    background-color: #111;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+/* change color */
+.change-color{
+    position: fixed;
+    width: 65px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    top: 40%;
+    z-index: 10;
+    border-radius: 0px 7px 7px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.change-color>i{
+    font-size: 25px;
+    animation: spin 3s linear infinite;
+    margin: 18px 0 0 18px;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.box-color{
+    background-color: white;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 30%;
+    z-index: 10;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -500px;
+    transition: all 0.5s;
+}
+.box-color-title{
+    padding: 5px 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box-color-title>span{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    padding: 8px 5px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin: 0px 0px 10px;
+}
+.box-color-title>span>i{
+    font-size: 25px;
+    color: darkgray;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.box-color-content>ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.box-color-content>ul>li{
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.box-color>button{
+    border-radius: 26px;
+    font-weight: 600;
+    height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 170px;
+    outline: none;
+    background-color: rgb(130, 180, 64);;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.box-color-content>ul:first-child>li:first-child{color: purple;}
+.box-color-content>ul:first-child>li:nth-child(2){color: red;}
+.box-color-content>ul:first-child>li:nth-child(3){color: blueviolet;}
+.box-color-content>ul:first-child>li:nth-child(4){color: blue;}
+.box-color-content>ul:first-child>li:nth-child(5){color: goldenrod;} 
+
+
+.box-color-content>ul:last-child>li:first-child{color: magenta;}
+.box-color-content>ul:last-child>li:nth-child(2){color: yellowgreen;}
+.box-color-content>ul:last-child>li:nth-child(3){color: orange;}
+.box-color-content>ul:last-child>li:nth-child(4){color: green;}
+.box-color-content>ul:last-child>li:nth-child(5){color: yellow;} 
+
+
+/* .box-color-title::after
+    content: "";
+    background-color: black;
+    width: 190px;
+    height: .5px;
+    display: block;
+    margin: 10px;
+ */
+
+/* end change color */
+
+
+/* section header */
+.main-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.under-div{
+    background-color: #ffb400;
+    position: fixed;
+    height: 200%;
+    width: 105%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+}
+.main-page>.my-img{
+    width: 30%;
+    margin-top: 3%;
+    z-index: 10;
+}
+.main-page>.my-img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.mini-img{
+    display: none;
+}
+.main-page>.my-text{
+    width: 37%;
+    color: #eee;
+}
+.main-page>.my-text>h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+.main-page>.my-text>h2{
+    font-size: 22px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+} 
+.main-page>.my-text>h2>span{
+    color: #ffb400;
+}
+.main-page>.my-text>p{
+    margin: 10px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
+} 
+.main-page>.my-text>button {
+    border-radius: 26px;
+    font-weight: 600;
+    height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 220px;
+    outline: none;
+    background-color: #ffb400;
+    letter-spacing: .5px;
+    border: 0;
+    cursor: pointer;
+}
+.main-page>.my-text>button>i{
+    transition: all 0.5s;
+    opacity: 0;
+    margin-left: -10px;
+
+}
+.main-page>.my-text>button:hover i{
+    opacity: 1;
+    margin-left:10px ;
+}
+
+.main-page>.my-nav>ul>li{
+    margin-bottom: 45px; 
+    position: relative;
+    list-style: none;
+    padding-left: 150px;
+    cursor: pointer;
+}
+
+.main-page>.my-nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #343a40;
+    padding: 15px;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.main-page>.my-nav>ul>li:hover a{
+    background-color: #ffb400;
+    color: #fff;
+}
+
+
+.main-page>.my-nav>ul>li>a.activ{
+    background-color: #ffb400;
+}
+.main-page>.my-nav>ul>li>h2{
+    background-color: #ffb400;
+    padding: 27px 27px 27px 10px;
+    width: 0px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    top: -16px;
+    right: 0;
+    left: 100px;
+    bottom: 75px;
+    z-index: -1;
+    list-style: none;
+    text-decoration: none;
+    line-height: 0px;
+    /* transition: visibility 0.4s, opacity 0.4s ,width 0.4s,left 0.4s; */
+    transition: all 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.main-page>.my-nav>ul>li:hover h2{  
+    opacity: 1;
+    visibility: visible;
+    width: 150px;
+    left: 50px;
+}
+.btn-nav-mini{
+    display: none;
+}
+
+.main-page>.my-nav-mini{
+    display: none;
+}
+
+
+
+
+/* end section header */
+
+
+/* classes to change icon */
+.purple>.main-page>.under-div{background-color: purple;}  .purple>.main-page>.my-text>h2>span{color: purple;}
+.purple>.main-page>.my-text>button{background-color: purple;} .purple>.main-page>.my-nav>ul>li:hover a{background-color: purple;}
+.purple>.main-page>.my-nav>ul>li>a.activ{background-color: purple;}  .purple>.main-page>.my-nav>ul>li>h2{background-color: purple;}
+
+.red>.main-page>.under-div{background-color: red;}  .red>.main-page>.my-text>h2>span{color: red;}
+.red>.main-page>.my-text>button{background-color: red;} .red>.main-page>.my-nav>ul>li:hover a{background-color: red;}
+.red>.main-page>.my-nav>ul>li>a.activ{background-color: red;}  .red>.main-page>.my-nav>ul>li>h2{background-color: red;}
+
+.blueviolet>.main-page>.under-div{background-color: blueviolet;}  .blueviolet>.main-page>.my-text>h2>span{color: blueviolet;}
+.blueviolet>.main-page>.my-text>button{background-color: blueviolet;} .blueviolet>.main-page>.my-nav>ul>li:hover a{background-color: blueviolet;}
+.blueviolet>.main-page>.my-nav>ul>li>a.activ{background-color: blueviolet;}  .blueviolet>.main-page>.my-nav>ul>li>h2{background-color: blueviolet;}
+
+.blue>.main-page>.under-div{background-color: blue;}  .blue>.main-page>.my-text>h2>span{color: blue;}
+.blue>.main-page>.my-text>button{background-color: blue;} .blue>.main-page>.my-nav>ul>li:hover a{background-color: blue;}
+.blue>.main-page>.my-nav>ul>li>a.activ{background-color: blue;}  .blue>.main-page>.my-nav>ul>li>h2{background-color: blue;}
+
+.goldenrod>.main-page>.under-div{background-color: goldenrod;}  .goldenrod>.main-page>.my-text>h2>span{color: goldenrod;}
+.goldenrod>.main-page>.my-text>button{background-color: goldenrod;} .goldenrod>.main-page>.my-nav>ul>li:hover a{background-color:goldenrod ;}
+.goldenrod>.main-page>.my-nav>ul>li>a.activ{background-color: goldenrod;}  .goldenrod>.main-page>.my-nav>ul>li>h2{background-color: goldenrod;}
+
+.magenta>.main-page>.under-div{background-color: magenta;}  .magenta>.main-page>.my-text>h2>span{color: magenta;}
+.magenta>.main-page>.my-text>button{background-color: magenta;} .magenta>.main-page>.my-nav>ul>li:hover a{background-color: magenta;}
+.magenta>.main-page>.my-nav>ul>li>a.activ{background-color: magenta;}  .magenta>.main-page>.my-nav>ul>li>h2{background-color: magenta;}
+
+.yellowgreen>.main-page>.under-div{background-color: yellowgreen;}  .yellowgreen>.main-page>.my-text>h2>span{color: yellowgreen;}
+.yellowgreen>.main-page>.my-text>button{background-color: yellowgreen;} .yellowgreen>.main-page>.my-nav>ul>li:hover a{background-color: yellowgreen;}
+.yellowgreen>.main-page>.my-nav>ul>li>a.activ{background-color: yellowgreen;}  .yellowgreen>.main-page>.my-nav>ul>li>h2{background-color: yellowgreen;}
+
+.orange>.main-page>.under-div{background-color: orange;}  .orange>.main-page>.my-text>h2>span{color: orange;}
+.orange>.main-page>.my-text>button{background-color: orange;} .orange>.main-page>.my-nav>ul>li:hover a{background-color: orange;}
+.orange>.main-page>.my-nav>ul>li>a.activ{background-color: orange;}  .orange>.main-page>.my-nav>ul>li>h2{background-color: orange;}
+
+.green>.main-page>.under-div{background-color: green;}  .green>.main-page>.my-text>h2>span{color: green;}
+.green>.main-page>.my-text>button{background-color: green;} .green>.main-page>.my-nav>ul>li:hover a{background-color: green;}
+.green>.main-page>.my-nav>ul>li>a.activ{background-color: green;}  .green>.main-page>.my-nav>ul>li>h2{background-color: green;}
+
+.yellow>.main-page>.under-div{background-color: yellow;}  .yellow>.main-page>.my-text>h2>span{color: yellow;}
+.yellow>.main-page>.my-text>button{background-color: yellow;} .yellow>.main-page>.my-nav>ul>li:hover a{background-color: yellow;}
+.yellow>.main-page>.my-nav>ul>li>a.activ{background-color: yellow;}  .yellow>.main-page>.my-nav>ul>li>h2{background-color: yellow;}
+
+/* classes to change icon */
+
+

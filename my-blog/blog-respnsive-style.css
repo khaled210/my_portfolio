@@ -1,0 +1,125 @@
+/* to title */
+@media only screen and (max-width: 990px) {
+    .title{
+        text-align: left;
+        background-color: #353434;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        margin: 0;
+        width: 100%;
+    }
+    .title>h1{
+        font-size: 30px;
+    }
+
+
+}
+
+/* End title */
+
+/* to nav in mini screen */
+@media only screen and (max-width: 990px) {
+    .btn-nav-mini{
+        background:none;
+        position: fixed;
+        top: 2px;
+        right: 2px;
+        padding: 18px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 50;
+        transition:all 0.5s;
+        display: block;
+    }
+    .btn-nav-mini>i{
+        color: #fff;
+        font-size: 28px;
+    }
+    #close-nav{
+        display: none;
+    }
+    .my-nav-mini{
+        display: block;
+        background-color: #353434;
+        color: #fff;
+        width: 0;
+        height: 100%;
+        position: fixed;
+        z-index: 11;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.6s;
+        top: 60px;
+    }
+    .my-nav-mini>ul{
+        margin: 100px 0 0 60px;
+    }
+    .my-nav-mini>ul>li{
+        list-style: none;
+        letter-spacing: 1.5px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .my-nav-mini>ul>li:after{
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: calc(100% - 60px);
+        background: #333;
+        left: 30px;
+        margin-top: 50px;
+    }
+    .my-nav-mini>ul>li>i>a{
+        margin-left: 40px;
+        text-transform: capitalize;
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        font-family: cursive;
+    }
+    .my-nav-mini>ul>li.activ{
+        color: #ffb400;
+    }
+}
+/* End nav in mini screen */
+
+/* to nav and change color */
+@media only screen and (max-width: 990px) {
+    .my-nav{
+        display: none;
+    } 
+    
+    .change-color{
+        display: none;
+    }
+}
+/* End nav and change color */
+
+/* to sections */
+@media only screen and (max-width: 990px) {
+    .collection-blog{
+        flex-direction: column;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .blog-content{
+        width: 100%;
+    }
+
+    .blog-img{
+        width: 100%;
+    }
+    
+    .blog-desc{
+        width: 100%;
+    }
+}
+/* End to sections */
