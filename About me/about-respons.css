@@ -85,15 +85,20 @@
 /* End the title section */
 
 /* my-img */
-.my-img{
-    display: block;
+@media only screen and (max-width :990px){
+    .my-img{
+        display: block;
+        width: 200px;
+        height: 250px;
+        margin:80px 0 30px 40px;
+    }
+    .my-img>img{
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
 }
-.my-img>img{
-    border-radius: 50%;
-    width: 200px;
-    margin-top: 75px;
-    margin-left: 130px;
-}
+
 /* End my-img */
 
 
@@ -198,3 +203,48 @@
 }
 
 /* nav in sides */
+
+@media only screen and (max-width :415px){
+    .my-skills {
+        width: 50%;
+        margin: auto;
+    }
+    .about-me>.container>button {
+        top: 265px;
+    }
+
+    .pers-info-number-content>div {
+        width: 80%;
+        margin: 0 0px 20px 5px;
+        padding: 16px 33px 0px 5px;
+    }
+    .pers-info-number-content>div>p::before{
+        display: none;
+    }
+
+    .pers-info-number-content>div>p{
+       margin-left: 0; 
+    }
+
+    .pers-info-number-content.left {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .pers-info-number-content.right {
+        width: 145px;
+    }
+}
+@media only screen and (max-width: 415px){
+    .skill-content {
+        display: block;
+        /* grid-template-columns: 0% 0%; */
+        margin-bottom: 0;
+    }
+    .second-pers-info-text {
+        margin-left: 20px;
+    }
+    .pers-info-text>div>ul>li {
+        font-size: 12px;
+    }
+}
+

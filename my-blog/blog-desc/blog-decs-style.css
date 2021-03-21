@@ -424,4 +424,16 @@ body{
         color: #ffb400;
     }
 }
+
+/* to nav and change color */
+@media only screen and (max-width: 990px) {
+    .my-nav{
+        display: none;
+    } 
+    
+    .change-color{
+        display: none;
+    }
+}
+/* End nav and change color */
 /* End respnsive */

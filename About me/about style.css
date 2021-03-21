@@ -55,7 +55,7 @@ body{
 /* End the header */
 
 /* my-img */
-.my-img>img{
+.my-img{
     display: none;
 }
 /* End my-img */
